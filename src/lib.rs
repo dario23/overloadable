@@ -61,6 +61,10 @@ use syn::{
     ReturnType, Token, Type, TypeTuple, Visibility, WhereClause,
 };
 
+#[cfg(test)]
+#[macro_use]
+extern crate doc_comment;
+
 ///
 /// Overloadable function macro. Please read the top level documentation for this crate
 /// for more information on this.
